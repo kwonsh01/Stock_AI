@@ -64,5 +64,5 @@ predict = model.predict(future)
 predict = (predict + 1) * 50000
 
 print("Today: {:.0f}".format(y_test[len(pred) - 1]))
-print("Predicted: {:.0f}".format(float(pred[len(pred) - 1])))
-print("Predict: {:.0f}".format(float(predict[len(predict) - 1])))
+print("Predicted(Today): {:.0f}".format(float(pred[len(pred) - 1])))
+print("Predict(Tomorrow): {:.0f}".format(float(predict[len(predict) - 1])))
